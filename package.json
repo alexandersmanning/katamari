@@ -1,0 +1,20 @@
+{
+  "name": "Katamari",
+  "version": "1.0.0",
+  "description": "This is a simple browser version of Katamari, using EaselJS.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "createjs-easeljs": "^0.8.2",
+    "webpack": "^1.13.3"
+  }
+}
