@@ -30,6 +30,10 @@ In addition, this project will include:
 
 This app will consist of a single screen with a main screen, a legend for game controls, abilty to silence the music, and footer nav links to the Github, my LinkedIn, and the About modal. Game controls will include up, down, left, right, and a start (enter) button.
 
+Mainscreen with Controls
+![main screen](http://imgur.com/a/oEloB)
+![Modal](http://imgur.com/a/n7goJ)
+
 
 ## Technologies
 
