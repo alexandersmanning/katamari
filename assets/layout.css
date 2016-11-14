@@ -1,0 +1,29 @@
+.canvas {
+	display: block;
+	margin: 0 auto;
+	opacity: .9;
+}
+
+body {
+		background-color: #1A232D;
+		margin: 0;
+}
+
+h1 {
+	margin: 0;
+	display: block;
+	color: black;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+.title {
+	margin: 0;
+	background-color: white;
+	padding: 4px;
+	height: 40px;
+	 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
