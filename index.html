@@ -4,14 +4,55 @@
 	<title>Katamari!</title>
 	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 	<script src="keymaster.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
 	<script type="text/javascript" src="lib/bundle.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/layout.css">
 </head>
 <body>
-	<div class="title">
-		<h1>Welcome to Katamari!</h1>
-	</div>
-	<canvas id="fullCanvas" class="canvas"></canvas>
+	<nav class="title">
+		<h1>Katamari</h1>
+	</nav>
+	<content class="main-screen">
+		<canvas id="fullCanvas" class="canvas"></canvas>
+		<section class="back-shadow"></section>
+		<aside id="start-screen" class="modal">
+				<h2>Welcome to Katamari</h2>
+				<p>As the yellow orb, you must absorb all of the katamari smaller than you. As you grow, you will be able to absorb more and more, but be careful, if a larger piece hits you, it is game over</p>
+
+				<h3>Controls</h3>
+				<ul class="control-list">
+					<li>&uarr;/w: up</li>
+					<li>&darr;/s: down</li>
+					<li>&larr;/a: left</li>
+					<li>&rarr;/d: right</li>
+				</ul>
+
+				<p>Press Enter to start</p>
+		</aside>
+		<aside id="pause-screen" class="modal" hidden>
+				<h2>Game Paused</h2>
+			
+				<h3>Controls</h3>
+				<ul class="control-list">
+					<li>&uarr;/w: up</li>
+					<li>&darr;/s: down</li>
+					<li>&larr;/a: left</li>
+					<li>&rarr;/d: right</li>
+				</ul>
+
+				<p>Press Space to continue</p>
+		</aside>
+		<aside id="game-won" class="modal" hidden>
+				<h2>You Won!</h2>
+
+				<p>Press Enter to play again</p>
+		</aside>
+		<aside id="game-lost" class="modal" hidden>
+				<h2>You Lost</h2>
+
+				<p>Press Enter to play again</p>
+		</aside>
+	</content>
 </body>
 </html>

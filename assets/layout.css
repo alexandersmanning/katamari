@@ -24,6 +24,37 @@ h1 {
 	background-color: white;
 	padding: 4px;
 	height: 40px;
-	 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+	 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-shadow {
+	position: fixed;
+	top: 40px;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	background-color: white;
+	opacity: .5
+}
+
+.modal {
+	position: fixed;
+	top: calc(100vh * .3);
+	left: calc(100vw * .39);
+	right: calc(100vw * .39);
+	bottom: calc(100vh * .3);
+	
+	height: 400px;
+	background-color: white;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	border: 1px solid white;
+	border-radius: 100%
+}
+
+.control-list {
+	list-style: none;
+	margin: 0;
+	padding:0;
 }
 
