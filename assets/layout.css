@@ -34,18 +34,25 @@ h1 {
 	left: 0;
 	right: 0;
 	background-color: white;
-	opacity: .5
+	opacity: .5;
+}
+
+.white-screen {
+	position: fixed;
+	top: 40px;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	background-color: white;
 }
 
 .modal {
+	top: calc(50vh - 150px);
+	left: calc(50vw - 150px);
 	position: fixed;
-	top: calc(100vh * .3);
-	left: calc(100vw * .39);
-	right: calc(100vw * .39);
-	bottom: calc(100vh * .3);
-	
-	height: 400px;
-	background-color: white;
+	width: 300px;
+	height: 300px;
+	background-color: #FDFD96;
 	text-align: center;
 	font-family: helvetica, sans-serif;
 	border: 1px solid white;
