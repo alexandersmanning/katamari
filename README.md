@@ -23,7 +23,7 @@ In addition, this project will include:
 
 1. An About modal describing the background and rules of the game
 2. Appropriate elastic-collision physics
-3. Pleasing sounds, provided by the hatnote project, for katamari interaction
+3. Pleasing sounds for katamari interaction
 2. A production Readme
 
 ## Wireframes
