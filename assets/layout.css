@@ -65,3 +65,29 @@ h1 {
 	padding:0;
 }
 
+.title-text {
+	position: relative;
+	top: 25px;
+}
+
+.info {
+	position: relative;
+	width: 200px;
+	top: 35px;
+	left: 50px;
+}
+
+.body-control {
+	position: relative;
+	top: 40px;
+}
+
+.controls-info {
+	position: relative;
+	bottom: -70px;
+}
+
+.control-list {
+	position: relative;
+	bottom: -60px;
+}
