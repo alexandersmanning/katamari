@@ -29,8 +29,8 @@ h1 {
 
 .back-shadow {
 	position: fixed;
-	top: 40px;
-	bottom: 10px;
+	top: 0px;
+	bottom: 0px;
 	left: 0;
 	right: 0;
 	background-color: white;
@@ -39,15 +39,15 @@ h1 {
 
 .white-screen {
 	position: fixed;
-	top: 40px;
-	bottom: 10px;
+	top: 0px;
+	bottom: 0px;
 	left: 0;
 	right: 0;
 	background-color: white;
 }
 
 .modal {
-	top: calc(50vh - 150px);
+	top: calc(50vh - 250px);
 	left: calc(50vw - 150px);
 	position: fixed;
 	width: 300px;
