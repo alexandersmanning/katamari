@@ -5,7 +5,8 @@
 }
 
 body {
-		background-color: #1A232D;
+		background-image: url("image/stardust_@2X.png");
+		/*background-color: #1A232D;*/
 		margin: 0;
 }
 
@@ -90,4 +91,107 @@ h1 {
 .control-list {
 	position: relative;
 	bottom: -60px;
+}
+
+.side-bar-content {
+	position: relative
+}
+
+.menu-toggle {
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 30px;
+	height: 30px;	
+	z-index: 150;
+	display: block;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FDFD96;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.sidebar {
+	position: absolute;
+	padding-left: 10px;
+	padding-top: 10px;
+	top: 0;
+	left: 60px;
+	width: 240px;
+	height: 100%;
+	background-image: url("image/stardust_@2X.png");
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+	
+.side-bar-content.open {
+	right: 10px;
+}
+
+.side-bar-content {
+	position: fixed;
+	right: -240px;
+	width: 300px;
+	height: 100%;
+	top: 0;
+	z-index: 500;
+	text-align: center;
+	color: white;
+}
+
+.sidebar-list {
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+}
+
+.list-item>.info-container {
+	text-align: center;
+	cursor: default;	
+}
+
+.list-info {
+	padding: 3%;
+	margin: 1%;
+	font-size: 15px;
+}
+
+
+.list-item {
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.link {
+	color: #FDFD96;
+	text-decoration: none;
+}
+
+.site-links {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
 }

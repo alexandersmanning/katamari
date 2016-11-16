@@ -7,9 +7,51 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
 	<script type="text/javascript" src="lib/bundle.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/layout.css">
 </head>
 <body>
+	<nav class="side-bar-content">
+		<div class="sidebar">
+			<ul class="sidebar-list">
+				<li>
+					<div class="list-item">About the Author
+						<div class="info-container" hidden>
+							<p class="list-info">Alex Manning is a former Industrial Engineering Manager who decided to pursue his true passion of programming and data analysis. Katumari was originally written as a purely front end project for App Academy. He is currently looking for a Junior Developer position where he can apply his programming skills to any, and all, problems that can be thrown at him.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-item">Math Behind the Collisions
+						<div class="info-container" hidden>
+							<p class="list-info">The balls bouncing actually follow the laws of physics! It uses a set of simple vector equations to calculate velocity and direction given an elastic collision, with the mass of the ball being the inverse of their size. You can read more about the math <a class="link" href="http://vobarian.com/collisions/2dcollisions2.pdf" target="_blank">here</a></p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-item">The Sounds
+						<div class="info-container" hidden>
+						<p class="list-info">As the balls collide, different chimes let out, leading to a new experience each time. Those specific sounds were created as part of the <a class="link" href="http://listen.hatnote.com/" target="_blank">Hatnote project</a>, which is an audiovisual representation of Wikipedia being updated. This site was one of the many that made me say "I want to be a developer"</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<section class="site-links">
+				<a href="https://github.com/alexandersmanning" target="_blank">
+					<img src="http://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,h_50,w_50/v1479319786/github-256_fhlqth.png"> </a>
+
+				<a href="https://www.linkedin.com/in/alexandersmanning" target="_blank">
+					<img src="http://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,h_50,w_50/v1479320698/linkedin-5-xxl_arhtft.png"> </a>
+			</section>
+
+		</div>
+		<div class="menu-toggle">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+	</nav>
 	<content class="main-screen">
 		<canvas id="fullCanvas" class="canvas"></canvas>
 		<section class="white-screen"></section>
