@@ -26,8 +26,8 @@ The chimes were provided per the Hatnote project, and were implemented using How
 
 This project was implemented with the following technologies:
 
-Vanilla JavaScript/ES6 for the game logic and moving pieces,
-jQuery for the about sidebar, and welcome screens
-Easel.js with HTML5 Canvas for DOM manipulation and rendering,
-Howler.js to load and play interaction sounds
-Webpack to bundle and serve up the various scripts.
+- Vanilla JavaScript/ES6 for the game logic and moving pieces,
+- jQuery for the about sidebar, and welcome screens
+- Easel.js with HTML5 Canvas for DOM manipulation and rendering,
+- Howler.js to load and play interaction sounds
+- Webpack to bundle and serve up the various scripts.
