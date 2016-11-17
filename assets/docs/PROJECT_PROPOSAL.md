@@ -32,9 +32,9 @@ This app will consist of a single screen with a main screen, a legend for game c
 
 Mainscreen with Controls
 
-![main screen](assets/docs/main_screen.png)
+![main screen](main_screen.png)
 
-![Modal](assets/docs/modal.png)
+![Modal](modal.png)
 
 
 ## Technologies
