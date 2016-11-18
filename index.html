@@ -2,12 +2,11 @@
 <html>
 <head>
 	<title>Katamari!</title>
-	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<script src="keymaster.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
 	<script type="text/javascript" src="lib/bundle.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/layout.css">
 </head>
@@ -16,22 +15,22 @@
 		<div class="sidebar">
 			<ul class="sidebar-list">
 				<li>
-					<div class="list-item">About the Author
-						<div class="info-container" hidden>
+					<div class="list-item"><h2>About The Author</h2>
+						<div class="info-container">
 							<p class="list-info">Alex Manning is a former Industrial Engineering Manager who decided to pursue his true passion of programming and data analysis. Katumari was originally written as a purely front end project for App Academy. He is currently looking for a Junior Developer position where he can apply his programming skills to any, and all, problems that can be thrown at him.</p>
 						</div>
 					</div>
 				</li>
 				<li>
-					<div class="list-item">Math Behind the Collisions
-						<div class="info-container" hidden>
+					<div class="list-item"><h2>The Collisions</h2>
+						<div class="info-container">
 							<p class="list-info">The balls bouncing actually follow the laws of physics! It uses a set of simple vector equations to calculate velocity and direction given an elastic collision, with the mass of the ball being the inverse of their size. You can read more about the math <a class="link" href="http://vobarian.com/collisions/2dcollisions2.pdf" target="_blank">here</a></p>
 						</div>
 					</div>
 				</li>
 				<li>
-					<div class="list-item">The Sounds
-						<div class="info-container" hidden>
+					<div class="list-item"><h2>The Sounds</h2>
+						<div class="info-container">
 						<p class="list-info">As the balls collide, different chimes let out, leading to a new experience each time. Those specific sounds were created as part of the <a class="link" href="http://listen.hatnote.com/" target="_blank">Hatnote project</a>, which is an audiovisual representation of Wikipedia being updated. This site was one of the many that made me say "I want to be a developer"</p>
 						</div>
 					</div>
@@ -68,6 +67,7 @@
 					<li>&darr;/s: down</li>
 					<li>&larr;/a: left</li>
 					<li>&rarr;/d: right</li>
+					<li>space: pause</li>
 				</ul>
 		</aside>
 		<aside id="pause-screen" class="modal" hidden>
