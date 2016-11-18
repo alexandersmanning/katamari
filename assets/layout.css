@@ -223,3 +223,39 @@ h2 {
 	display: flex;
 	justify-content: space-around;
 }
+
+.instruction-box {
+	position: absolute;
+	right: 90px;
+	top: -50px;
+	width: 90px;
+	border: 1px solid #FDFD96;
+	background-color: #FDFD96;
+	text-align: center;
+	border-radius: 5%;
+	z-index: 150;	
+	font-family: helvetica, sans-serif;
+	padding: 5px;	
+}
+
+.instruction-box.displayed {
+	top: 12px;
+	transition: top 0.5s ease-in-out;
+}
+
+.instruction-box:after{
+content: "";
+  position: absolute;
+  top: 0px;
+  border: 0 solid #FDFD96;
+  border-width: 10px 20px;
+  width: 0;
+  height: 0;
+}
+
+.instruction-box:after {
+	top: 11px;
+  right: -40px;
+  border-color: transparent;
+  border-left-color: #FDFD96;
+}
