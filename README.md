@@ -30,4 +30,5 @@ This project was implemented with the following technologies:
 - jQuery for the about sidebar, and welcome screens
 - Easel.js with HTML5 Canvas for DOM manipulation and rendering,
 - Howler.js to load and play interaction sounds
+- Cookies.js to maintain volume between games, to be used in future for scoring
 - Webpack to bundle and serve up the various scripts.
