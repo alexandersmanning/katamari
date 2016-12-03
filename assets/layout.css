@@ -51,42 +51,49 @@ h2 {
 
 .modal {
 	top: calc(50vh - 250px);
-	left: calc(50vw - 150px);
-	position: fixed;
-	width: 300px;
-	height: 300px;
+	left: calc(50vw - 250px);
+	position: absolute;
+	width: 500px;
+	height: 500px;
 	background-color: #FDFD96;
-	text-align: center;
-	/*font-family: 'Pacifico', cursive;*/
+	display: none;
 	border: 1px solid white;
 	border-radius: 100%
+}
+
+.modal-display {
+	display: flex;
+	justify-content: center;
 }
 
 .control-list {
 	list-style: none;
 	margin: 0;
 	padding:0;
+	font-family: helvetica, sans-serif;
+	text-align: center;
 }
 
 .title-text {
-	position: relative;
+	position: absolute;
 	cursor: default;
-	top: 25px;
+	top: 45px;
 	font-size: 37px;
 	font-family: 'Pacifico', cursive;
 }
 
 .info {
-	position: relative;
+	position: absolute;
 	width: 200px;
-	top: 20px;
-	left: 50px;
+	top: 105px;
+	/*left: 150px;*/
 	font-family: helvetica, sans-serif;
 }
 
 .body-control {
-	position: relative;
-	top: 25px;
+	position: absolute;
+	top: 250px;
+	/*left: 175px;*/
 	font-family: helvetica, sans-serif;
 	font-weight: 700;
 }
@@ -96,14 +103,16 @@ h2 {
 }
 
 .controls-info {
-	position: relative;
+	position: absolute;
 	font-family: 'Pacifico', cursive;
-	bottom: -50px;
+	top: 280px;
+	/*left: 220px;*/
 }
 
 .control-list {
-	position: relative;
-	bottom: -35px;
+	position: absolute;
+	top: 330px;
+	/*left: 210px;;*/
 }
 
 .side-bar-content {
@@ -258,4 +267,8 @@ content: "";
   right: -40px;
   border-color: transparent;
   border-left-color: #FDFD96;
+}
+
+.main-secreen {
+	position: relative;
 }
