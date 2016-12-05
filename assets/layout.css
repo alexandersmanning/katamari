@@ -62,8 +62,9 @@ h2 {
 }
 
 .modal-display {
-	display: flex;
-	justify-content: center;
+	display: block;
+	/*justify-content: center;*/
+	text-align: center;
 }
 
 .control-list {
@@ -78,21 +79,26 @@ h2 {
 	position: absolute;
 	cursor: default;
 	top: 45px;
+	width: 100%;
 	font-size: 37px;
 	font-family: 'Pacifico', cursive;
+	/*margin: 0;*/
 }
 
 .info {
 	position: absolute;
 	width: 200px;
-	top: 105px;
-	/*left: 150px;*/
+	top: 120px;
+	left: 150px;
 	font-family: helvetica, sans-serif;
+	margin: auto;
 }
 
 .body-control {
 	position: absolute;
 	top: 250px;
+	width: 100%;
+	text-align: center;
 	/*left: 175px;*/
 	font-family: helvetica, sans-serif;
 	font-weight: 700;
@@ -106,12 +112,16 @@ h2 {
 	position: absolute;
 	font-family: 'Pacifico', cursive;
 	top: 280px;
+	width: 100%;
+	text-align: center;
 	/*left: 220px;*/
 }
 
 .control-list {
 	position: absolute;
 	top: 330px;
+	width: 100%;
+	text-align: center;
 	/*left: 210px;;*/
 }
 
